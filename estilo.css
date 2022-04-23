@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Poppins, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.main__content{
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+}
+.div__content h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom:20px;
+}
+.div__content p{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.first__massage{
+    color: rgb(48, 85, 117);
+}
+.second__massage{
+    color: rgb(10, 50, 151); 
+
+}
+
+.link_discord{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(10, 50, 151);
+    padding:10px 50px;
+    transition: all 0.5S;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.link_discord:hover{
+    background-color: rgb(14, 44, 69);
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    margin: 100px 0;
+}
+
+@media (max-width:720px) {
+    .div__content h1{
+        font-size: 2rem;
+    }
+    .div__content p{
+        font-size: 1rem;
+    }
+    .main__content{
+        max-width: 400px;
+    }
+    .link_discord:hover{
+        background-color: rgb(10, 50, 151);
+    }
+}
